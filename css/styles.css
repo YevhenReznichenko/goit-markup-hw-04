@@ -46,7 +46,9 @@ img{
 /* header styls */
 .main-header{
     border-bottom: 1px solid #e7e9fc;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-address {
@@ -126,7 +128,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .list-address-item { list-style-type: none;
     padding-top: 24px;
         padding-bottom: 24px;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
    
 }
 .list-address-link { 
@@ -136,6 +138,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 0 15px 0 15px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-address-link:focus{
     color: #404bbf;
@@ -403,7 +406,9 @@ color:#F4F4FD;
 
 }
 .section-portfolio-list-item:hover{
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* main-footer */
@@ -474,7 +479,7 @@ color:  #FFF;
 .container-social-list-item{
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .container-social-link {
     width: 100%;
@@ -484,6 +489,7 @@ color:  #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
 .container-social-link:focus{
